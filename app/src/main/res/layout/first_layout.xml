@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#49bc3a"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GILL"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/text_gill"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SARKARIA"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_gill"
+        android:id="@+id/text_sar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SANDHU"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_sar"
+        android:id="@+id/text_san"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="KHEHRA"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_san"
+        android:id="@+id/text_kheh"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RANDHAWA"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_kheh"/>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2adcc7"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HALO"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/text_hlo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HOWZ U"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_hlo"
+        android:id="@+id/text_how"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="FINE"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_how"
+        android:id="@+id/text_fine"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="NYC"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_fine"
+        android:id="@+id/nice"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HALO"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/nice"
+        android:id="@+id/text_halo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GOOD"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_below="@id/text_halo"/>
+</RelativeLayout>
